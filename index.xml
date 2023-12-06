@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random HW Blog</title>
+    <link>https://BigNixon.github.io/</link>
+    <description>Recent content on Random HW Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://BigNixon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://BigNixon.github.io/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://BigNixon.github.io/about/about/</guid>
+      <description>Hi, I&amp;rsquo;m Nixon! I&amp;rsquo;m a research student from the UFRGS (Brazil)
+Passionate about digital hardware design on ASIC/FPGA
+I have some expereriences doing FPGA on constest and on undergraduate
+Currently I&amp;rsquo;m trying to becom an expert on UVM and SystemVerilog
+Here you could find some of my projects and what I&amp;rsquo;m currently learning
+Hope you like it!!!
+Have a look to my skills ;) Software Independent;
+ Linux low level communication with hardware Hardware description Languages: VHDL, SystemVerilog.</description>
+    </item>
+    
+  </channel>
+</rss>
