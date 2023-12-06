@@ -44,41 +44,43 @@
 
 
   
+
+
+
+
+
   
-
-
-
-
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Random HW Blog</title>
-<meta property="og:title" content=Random&#32;HW&#32;Blog />
-<meta name="twitter:title" content=Random&#32;HW&#32;Blog />
-<meta itemprop="name" content=Random&#32;HW&#32;Blog />
-<meta name="application-name" content=Random&#32;HW&#32;Blog />
+<title itemprop="name">Random HW Blog - Neural network system verilog</title>
+<meta property="og:title" content=Random&#32;HW&#32;Blog&#32;-&#32;Neural&#32;network&#32;system&#32;verilog />
+<meta name="twitter:title" content=Random&#32;HW&#32;Blog&#32;-&#32;Neural&#32;network&#32;system&#32;verilog />
+<meta itemprop="name" content=Random&#32;HW&#32;Blog&#32;-&#32;Neural&#32;network&#32;system&#32;verilog />
+<meta name="application-name" content=Random&#32;HW&#32;Blog&#32;-&#32;Neural&#32;network&#32;system&#32;verilog />
 <meta property="og:site_name" content="Random HW Blog" />
 
 
-<meta name="description" content="Just a random blog for Hardware Projects" />
-<meta itemprop="description" content="Just a random blog for Hardware Projects" />
-<meta property="og:description" content="Just a random blog for Hardware Projects" />
-<meta name="twitter:description" content="Just a random blog for Hardware Projects" />
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
 
 
-<base href="https://BigNixon.github.io/" />
-<link rel="canonical" href="https://BigNixon.github.io/" itemprop="url" />
-<meta name="url" content="https://BigNixon.github.io/" />
-<meta name="twitter:url" content="https://BigNixon.github.io/" />
-<meta property="og:url" content="https://BigNixon.github.io/" />
+<base href="https://BigNixon.github.io/posts/neural_network_system_verilog/neural_network_system_verilog/" />
+<link rel="canonical" href="https://BigNixon.github.io/posts/neural_network_system_verilog/neural_network_system_verilog/" itemprop="url" />
+<meta name="url" content="https://BigNixon.github.io/posts/neural_network_system_verilog/neural_network_system_verilog/" />
+<meta name="twitter:url" content="https://BigNixon.github.io/posts/neural_network_system_verilog/neural_network_system_verilog/" />
+<meta property="og:url" content="https://BigNixon.github.io/posts/neural_network_system_verilog/neural_network_system_verilog/" />
 
 
 <meta property="og:updated_time" content=6012-06-12T1213:54:23-0300 />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://BigNixon.github.io/sitemap.xml' />
-<link href="https://BigNixon.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Random HW Blog" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -92,6 +94,20 @@
 <meta name="apple-mobile-web-app-title" content="Random HW Blog" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+
+
+
+
+
+
+<meta property="og:type" content="article" />
+<meta property="article:publisher" content="" />
+<meta property="og:article:published_time" content=6012-06-12T1213:54:23-0300 />
+<meta property="article:published_time" content=6012-06-12T1213:54:23-0300 />
+
+
 
 
 
@@ -343,11 +359,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <div class="posts">
-    
-    
-    <article class="post">
-        <div class="info">
+                <div class="post">
+  <div class="info">
     <h1 class="post-title">
         <a href="https://BigNixon.github.io/posts/neural_network_system_verilog/neural_network_system_verilog/">Neural network system verilog</a>
     </h1>
@@ -376,51 +389,216 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
     
 </div>
 
-        
-        I am doing a neural network on SystemVerilog from scratch Architecture Code Simulation Future work  I am doing a neural network on SystemVerilog from scratch It have been near 4 years since I first touched Hardware Languages on the beggining I used VHDL. At the start I didn&rsquo;t really like the syntax but when I started working with It givving lessons for undergraduate students I got some confident on it.
-        
-        <div class="read-more-link">
-            <a href="/posts/neural_network_system_verilog/neural_network_system_verilog/">Read More…</a>
-        </div>
-        
-        
-    </article>
-    <article class="post">
-        <div class="info">
-    <h1 class="post-title">
-        <a href="https://BigNixon.github.io/about/about/"></a>
-    </h1>
+  <ul>
+<li><a href="#i-am-doing-a-neural-network-on-systemverilog-from-scratch">I am doing a neural network on SystemVerilog from scratch</a></li>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#simulation">Simulation</a></li>
+<li><a href="#future-work">Future work</a></li>
+</ul>
+<h2 id="i-am-doing-a-neural-network-on-systemverilog-from-scratch">I am doing a neural network on SystemVerilog from scratch</h2>
+<p>It have been near 4 years since I first touched Hardware Languages on the beggining I used VHDL. At the start I didn&rsquo;t really like the syntax but when I started working with It givving lessons for undergraduate students I got some confident on it. (actually nowadays I have better understanding on it than in Verilog).</p>
+<p>For around 5 months I have been learning Verilog as a language from design until verification, now I could say that I have some knowledge on UVM and want to try them on an interesting project of Neural Networks.</p>
+<p>I have some experience on Neural Networks and deep learning just in python using frameworks like Pytorch and Tensorflow.</p>
+<p>For years I wanted to give a try on developing a Neural network using a Hardware description Language but the time never really came.</p>
+<p>Now I decided to do it using SystemVerilog language, but actually it works just with Verilog supported syntax since my only simulator is ModelSim starter edition and it has some limitations with SytemVerilog unique constructs lige randomizations and contraints.</p>
+<h2 id="architecture">Architecture</h2>
+<p>Consists on 3 stages:</p>
+<ul>
+<li>Memory stage
+<ul>
+<li>Where we are going to prepare the pixel data before giving it to the next stage (inputs 1 pixel data per cycle and outputs valid data after 7 lines of the image are stimuli. The output data is like a kernel of 7x7 image).</li>
+</ul>
+</li>
+<li>Neural processing unit stage
+<ul>
+<li>Where our neural network will perform all the arithmetics to do the predictions (inputs the 7x7 image segmentation and outputs the prediction - 4 symbols)</li>
+</ul>
+</li>
+<li>Manipulation Stage
+<ul>
+<li>Where our output image is prepared, manages the current pixel to give it a different color for every different prediction label.</li>
+</ul>
+</li>
+</ul>
+<h2 id="code">Code</h2>
+<p>It&rsquo;s just the top level for the neural processing unit</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-verilog" data-lang="verilog"><span style="color:#66d9ef">module</span> npu (
+    <span style="color:#66d9ef">input</span> <span style="color:#66d9ef">logic</span> clk,
+    <span style="color:#66d9ef">input</span> <span style="color:#66d9ef">logic</span> reset,
+    <span style="color:#66d9ef">input</span> <span style="color:#66d9ef">logic</span> de_in,
+    <span style="color:#66d9ef">input</span> <span style="color:#66d9ef">logic</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] data_in,
+
+    <span style="color:#66d9ef">output</span> <span style="color:#66d9ef">logic</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] r_out,
+    <span style="color:#66d9ef">output</span> <span style="color:#66d9ef">logic</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] g_out,
+    <span style="color:#66d9ef">output</span> <span style="color:#66d9ef">logic</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] b_out
+);
+
+    <span style="color:#66d9ef">logic</span> [<span style="color:#ae81ff">55</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] line_0, line_1, line_2, line_3, line_4, line_5, line_6;
+    <span style="color:#66d9ef">integer</span> symbol_0, symbol_1, symbol_2, symbol_3;
+    <span style="color:#66d9ef">logic</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] pixel_0, pixel_1;
+
+
+    memory_stage mem_inst(
+        .clk(clk),
+        .rst(reset),
+        .data_enable_in(de_in),
+        .data_in(data_in),
+
+        .data_out(pixel_0),
+        .line0(line_0),
+        .line1(line_1),
+        .line2(line_2),
+        .line3(line_3),
+        .line4(line_4),
+        .line5(line_5),
+        .line6(line_6)
+    );
+
+    neuron_unit neuron_unit_inst(
+        .clk(clk),
+        .reset(reset),
+        .de_in(de_in),
+        .line_0_in(line_0),
+        .line_1_in(line_1),
+        .line_2_in(line_2),
+        .line_3_in(line_3),
+        .line_4_in(line_4),
+        .line_5_in(line_5),
+        .line_6_in(line_6),
+
+        .symbol_0(symbol_0),
+        .symbol_1(symbol_1),
+        .symbol_2(symbol_2),
+        .symbol_3(symbol_3)
+    );
+
+    pixel_control_unit #(
+        .delay(<span style="color:#ae81ff">7</span>)
+    )pixel_control_unit_inst(
+        .clk(clk),
+        .input_pixel(pixel_0),
+        .output_pixel(pixel_1)
+    );
+
+    manipulation_unit manipulation_unit_inst(
+        .clk(clk),
+        .data_in(pixel_1),
+        .symbol_0(symbol_0),
+        .symbol_1(symbol_1),
+        .symbol_2(symbol_2),
+        .symbol_3(symbol_3),
+        .r_out(r_out),
+        .g_out(g_out),
+        .b_out(b_out)
+    );
     
+
+<span style="color:#66d9ef">endmodule</span>
+
+</code></pre></div><h2 id="simulation">Simulation</h2>
+<p>The testbench for the npu is shown, i have the pixel information on a txt file where each line indicates the rgb info of each pixel.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-verilog" data-lang="verilog"><span style="color:#66d9ef">`timescale</span> <span style="color:#ae81ff">1</span>ns<span style="color:#f92672">/</span><span style="color:#ae81ff">1</span>ps
+
+<span style="color:#66d9ef">module</span> npu_tb;
+
+  <span style="color:#66d9ef">reg</span> clk;
+  <span style="color:#66d9ef">reg</span> reset;
+  <span style="color:#66d9ef">reg</span> de_in;
+  <span style="color:#66d9ef">reg</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] data_in;
+  <span style="color:#66d9ef">wire</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] r_out, g_out, b_out;
+
+  <span style="color:#75715e">// Instantiate the npu module
+</span><span style="color:#75715e"></span>  npu u_npu (
+    .clk(clk),
+    .reset(reset),
+    .de_in(de_in),
+    .data_in(data_in),
+    .r_out(r_out),
+    .g_out(g_out),
+    .b_out(b_out)
+  );
+
+  <span style="color:#75715e">// Clock generation
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">always</span> <span style="color:#66d9ef">begin</span>
+    #<span style="color:#ae81ff">5</span> clk <span style="color:#f92672">=</span> <span style="color:#f92672">~</span>clk;
+  <span style="color:#66d9ef">end</span>
+
+  <span style="color:#75715e">// Memory array
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">reg</span> [<span style="color:#ae81ff">7</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>] memory [<span style="color:#ae81ff">0</span><span style="color:#f92672">:</span><span style="color:#ae81ff">921599</span>];
+  <span style="color:#66d9ef">integer</span> chann_out;
+  <span style="color:#75715e">// Test sequence
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">initial</span> <span style="color:#66d9ef">begin</span>
+    <span style="color:#75715e">// Initialize signals
+</span><span style="color:#75715e"></span>    chann_out <span style="color:#f92672">=</span> $fopen(<span style="color:#e6db74">&#34;rgb_out.txt&#34;</span>, <span style="color:#e6db74">&#34;w&#34;</span>);
+    clk <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    reset <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+    de_in <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    data_in <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+
+    <span style="color:#75715e">// Read values from the file and store them in the memory array
+</span><span style="color:#75715e"></span>    $readmemb(<span style="color:#e6db74">&#34;all_luminance.txt&#34;</span>, memory);
+
+    #<span style="color:#ae81ff">10</span>;
+    reset <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    #<span style="color:#ae81ff">10</span>;
+    <span style="color:#75715e">// Apply the stimulus to the npu module
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">921600</span>; i<span style="color:#f92672">++</span>) <span style="color:#66d9ef">begin</span>
+      #<span style="color:#ae81ff">10</span>;
+      de_in <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+      data_in <span style="color:#f92672">=</span> memory[i];
+      $fdisplay(chann_out,<span style="color:#e6db74">&#34;%b%b%b&#34;</span>, r_out, g_out, b_out);
+
+    <span style="color:#66d9ef">end</span>
+    #<span style="color:#ae81ff">1</span>;
+    de_in <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    #<span style="color:#ae81ff">10</span>;
+    $fclose(chann_out);
+    $finish;
+    <span style="color:#75715e">// Capture the output values and write them to another text file
+</span><span style="color:#75715e"></span>   
+  <span style="color:#66d9ef">end</span>
+
+<span style="color:#66d9ef">endmodule</span>
+</code></pre></div><p>This are my current results:</p>
+<p><img src="./pictures/output.png" alt="image info"></p>
+<h2 id="future-work">Future work</h2>
+<ul>
+<li>Debug why is that yellow band showing (I suspect that is because of the 7 lines delay at the memroy stage).</li>
+<li>Retrain the model for better recognition of the patterns</li>
+</ul>
+
+  
+  <hr>
+<div class="footer">
     
-    
-    
-    
-    
+	    
+	    
     
 </div>
 
-        
-        Hi, I&rsquo;m Nixon! I&rsquo;m a research student from the UFRGS (Brazil)
-Passionate about digital hardware design on ASIC/FPGA
-I have some expereriences doing FPGA on constest and on undergraduate
-Currently I&rsquo;m trying to becom an expert on UVM and SystemVerilog
-Here you could find some of my projects and what I&rsquo;m currently learning
-Hope you like it!!!
-Have a look to my skills ;) Software Independent;
- Linux low level communication with hardware Hardware description Languages: VHDL, SystemVerilog.
-        
-        <div class="read-more-link">
-            <a href="/about/about/">Read More…</a>
-        </div>
-        
-        
-    </article>
+  
 </div>
-
-
-
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-am-doing-a-neural-network-on-systemverilog-from-scratch">I am doing a neural network on SystemVerilog from scratch</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#simulation">Simulation</a></li>
+    <li><a href="#future-work">Future work</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>
